@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "armorfdtracker",
+	"version": "${version}",
+	"name": "Armor FD Tracker",
+	"description": "HUD that tracks kills and tier progress for each piece of Final Destination armor on Hypixel SkyBlock.",
+	"authors": [
+		"Aymeric"
+	],
+	"license": "MIT",
+	"icon": "assets/armorfdtracker/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.aymeric.armorfdtracker.ArmorFDTrackerMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
